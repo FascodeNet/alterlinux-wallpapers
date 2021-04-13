@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-image="/usr/share/backgrounds/xfce/xfce-${1}.png"
+image="/usr/share/backgrounds/xfce/xfce-${1}.jpg"
 replace="/usr/share/backgrounds/${2}.png"
 
 # Replace wallpaper.

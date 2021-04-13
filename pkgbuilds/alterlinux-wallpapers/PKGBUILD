@@ -3,7 +3,7 @@
 
 _pkgname="alterlinux-wallpapers"
 pkgname="${_pkgname}"
-pkgver="7.0"
+pkgver="7.1"
 pkgrel=1
 pkgdesc='AlterLinux wallpapers'
 arch=('any')

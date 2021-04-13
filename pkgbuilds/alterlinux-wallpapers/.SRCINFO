@@ -1,31 +1,11 @@
 pkgbase = alterlinux-wallpapers
 	pkgdesc = AlterLinux wallpapers
-	pkgver = 6.0
+	pkgver = 7.0
 	pkgrel = 1
 	url = https:/fascode.net
 	arch = any
-	source = alter.png
-	source = alter-old.png
-	source = alter-jiju.png
-	source = alter-nochr.png
-	source = alterlinux-wallpapers-xfce
-	source = alterlinux-wallpapers-xfce-blue.hook
-	source = alterlinux-wallpapers-xfce-stripes.hook
-	source = alterlinux-wallpapers-xfce-teal.hook
-	source = alterlinux-wallpapers-xfce-verticals.hook
-	source = alterlinux-wallpapers-lxde
-	source = alterlinux-wallpapers-lxde-blue.hook
-	md5sums = 75bbf3e0c33d0d7f4e09e9a5489691ff
-	md5sums = 42b477468bc5d88825b41e8522552ad3
-	md5sums = ca58c394911aa211c5712fabbad23fe2
-	md5sums = aea503af241273d8773b4abefee8992e
-	md5sums = 845f106696fbac435126babebd728185
-	md5sums = e05b85d07afede613e2a3f7e8e5ee2d4
-	md5sums = 1c55857c4ab27651ce4db065814df1f0
-	md5sums = 768f565556b2a8bb92696cb16565e06a
-	md5sums = d7d6d27ac3e8f278b11179485cb7edc1
-	md5sums = d0ae4ee0249809481dab7ede4df44a42
-	md5sums = 08e386e460d763171e1aed033f8d53e1
+	source = https://github.com/FascodeNet/alterlinux-wallpapers/archive/refs/tags/v7.0.zip
+	md5sums = SKIP
 
 pkgname = alterlinux-wallpapers
 

@@ -1,0 +1,13 @@
+[Trigger]
+Type = Path
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Target = usr/share/lxde/wallpapers/lxde_blue.jpg
+
+[Action]
+Description = Optimizing wallpaper (lxde-blue) ...
+When = PostTransaction
+Depends=alterlinux-wallpapers
+Exec = /usr/share/libalpm/scripts/alterlinux-wallpapers-lxde blue alter
+NeedsTargets

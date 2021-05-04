@@ -9,5 +9,5 @@ Target = usr/share/backgrounds/xfce/xfce-blue.jpg
 Description = Optimizing wallpaper (xfce-blue) ...
 When = PostTransaction
 Depends=alterlinux-wallpapers
-Exec = /usr/share/libalpm/scripts/alterlinux-wallpapers xfce/xfce-blue.png alter-jiju.png
+Exec = /usr/share/libalpm/scripts/alterlinux-wallpapers xfce/xfce-blue.jpg alter-jiju.png
 NeedsTargets

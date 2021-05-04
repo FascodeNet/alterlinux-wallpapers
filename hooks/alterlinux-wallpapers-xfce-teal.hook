@@ -3,11 +3,11 @@ Type = Path
 Operation = Install
 Operation = Upgrade
 Operation = Remove
-Target = usr/share/backgrounds/xfce/xfce-teal.png
+Target = usr/share/backgrounds/xfce/xfce-teal.jpg
 
 [Action]
 Description = Optimizing wallpaper (xfce-teal) ...
 When = PostTransaction
 Depends=alterlinux-wallpapers
-Exec = /usr/share/libalpm/scripts/alterlinux-wallpapers-xfce teal alter-old
+Exec = /usr/share/libalpm/scripts/alterlinux-wallpapers xfce/xfce-teal.jpg alter-old.png
 NeedsTargets

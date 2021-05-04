@@ -9,5 +9,5 @@ Target = usr/share/backgrounds/xfce/xfce-verticals.png
 Description = Optimizing wallpaper (xfce-verticals) ...
 When = PostTransaction
 Depends=alterlinux-wallpapers
-Exec = /usr/share/libalpm/scripts/alterlinux-wallpapers-xfce verticals alter
+Exec = /usr/share/libalpm/scripts/alterlinux-wallpapers xfce/xfce-verticals.png alter.png
 NeedsTargets

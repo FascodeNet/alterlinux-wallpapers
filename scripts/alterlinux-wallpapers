@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-image="/usr/share/lxde/wallpapers/lxde_${1}.jpg"
-replace="/usr/share/backgrounds/${2}.png"
+image="/usr/share/backgrounds/${1}"
+replace="/usr/share/backgrounds/${2}"
 
 # Replace wallpaper.
 if [[ -f "${image}" ]] && [[ -f "${replace}" ]]; then

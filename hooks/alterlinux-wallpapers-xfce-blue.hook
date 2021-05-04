@@ -3,11 +3,11 @@ Type = Path
 Operation = Install
 Operation = Upgrade
 Operation = Remove
-Target = usr/share/backgrounds/xfce/xfce-blue.png
+Target = usr/share/backgrounds/xfce/xfce-blue.jpg
 
 [Action]
 Description = Optimizing wallpaper (xfce-blue) ...
 When = PostTransaction
 Depends=alterlinux-wallpapers
-Exec = /usr/share/libalpm/scripts/alterlinux-wallpapers-xfce blue alter-jiju
+Exec = /usr/share/libalpm/scripts/alterlinux-wallpapers xfce/xfce-blue.png alter-jiju.png
 NeedsTargets

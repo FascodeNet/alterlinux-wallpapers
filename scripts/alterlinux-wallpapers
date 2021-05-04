@@ -4,8 +4,14 @@ image="/usr/share/backgrounds/${1}"
 replace="/usr/share/backgrounds/${2}"
 
 # Replace wallpaper.
+if [[ ! -f "${image}" ]]; then
+    echo "${image} was not found" >&2
+    exit 1
+fi
+
 if [[ -f "${image}" ]] && [[ -f "${replace}" ]]; then
     rm -rf "${image}"
     ln -s "${replace}" "${image}"
     chmod 644 "${replace}"
+    echo "Replaced ${image} to ${replace}"
 fi
